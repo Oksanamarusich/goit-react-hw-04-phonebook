@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContainerFilter = styled.div`
 margin-left: auto;
 margin-right: auto;
-padding: 40px;
 
 width: 400px;
 
@@ -15,7 +14,7 @@ display: flex;
 
   max-width: 100%;
   
-  color: ${prop => prop.theme.colors.dark};
+  color: ${prop => prop.theme.colors.light};
 `;
 
 export const FilterInput = styled.input`
