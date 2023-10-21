@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import {ContactForm} from "./ContactForm/ContactForm"
 import { nanoid } from 'nanoid';
 import { Filter } from './Filter/Filter';
