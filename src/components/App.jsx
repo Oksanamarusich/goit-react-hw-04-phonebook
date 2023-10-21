@@ -13,15 +13,15 @@ export const App = () => {
   ]);
   const [filter, setFilter] = useState('');
   
-  useEffect(() => {
-    const storedContacts = JSON.parse(localStorage.getItem('contacts'));
-    setContacts(storedContacts);
-  }, []);
+  // useEffect(() => {
+  //   const storedContacts = JSON.parse(localStorage.getItem('contacts'));
+  //   setContacts(storedContacts);
+  // }, []);
   
-    useEffect(() => {
-     localStorage.setItem('contacts', JSON.stringify(contacts));
+  //   useEffect(() => {
+  //    localStorage.setItem('contacts', JSON.stringify(contacts));
       
-    }, [contacts]);
+  //   }, [contacts]);
   
   
 
